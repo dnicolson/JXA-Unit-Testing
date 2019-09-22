@@ -8,8 +8,7 @@ The code can be run without modification in the following environments:
 
 ### OSA
 
-- `osascript -l JavaScript set-track-counts.js`
-- `cp set-track-counts.js set-track-counts.applescript && open -a "Script Editor" set-track-counts.applescript`
+`osascript -l JavaScript set-track-counts.js`
 
 ### Node
 
@@ -18,3 +17,13 @@ The code can be run without modification in the following environments:
 ### Jest
 
 `jest set-track-counts.test.js`
+
+### Script Editor
+
+`cp set-track-counts.js set-track-counts.applescript && open -a "Script Editor" set-track-counts.applescript`
+
+### Music
+
+`cp set-track-counts.js ~/Library/Music/Scripts/set-track-counts.js`
+
+The script menu can be used to invoke the script in Music.
